@@ -1,0 +1,22 @@
+@media (max-width: 968px) {
+    .card-layout {
+      flex-direction: column-reverse; 
+      min-width: 10px;
+      margin: 50px auto;
+    }
+  
+    .card-image-div, .card-content {
+      width: 100%; 
+      height: auto;
+    }
+    .card-content{
+        text-align: center;
+        gap: 100px;
+    }
+    
+    
+    .stats{
+        flex-direction: column;
+        gap: 50px;
+    }
+  }
